@@ -2,6 +2,8 @@
   "name": "quotebot-frontend",
   "version": "0.1.0",
   "private": true,
+  "author": "Jorge Lopez (Mantenimiento Sinai)",
+  "license": "MIT",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",

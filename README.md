@@ -225,11 +225,11 @@ quotebot-frontend/
 
 ## 📄 Licencia
 
-Este proyecto es privado y confidencial.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ## 👥 Autores
 
-- **Equipo QuoteBot** - Desarrollo inicial
+- **Jorge Lopez** - *Trabajo Inicial* - [Mantenimiento Sinai](https://github.com/jorgeahmed)
 
 ## 🙏 Agradecimientos
 
