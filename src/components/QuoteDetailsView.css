@@ -1,0 +1,295 @@
+/* Quote Details View Styles */
+
+.quote-details-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.loading-state,
+.error-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 60px 20px;
+    color: #6b7280;
+}
+
+.error-state {
+    flex-direction: column;
+}
+
+.error-icon {
+    font-size: 3rem;
+}
+
+.quote-details-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.quote-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-bottom: 1px solid #bae6fd;
+}
+
+.quote-header h1 {
+    margin: 0 0 12px 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0c4a6e;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-active {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    color: #1e40af;
+}
+
+.status-accepted {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    color: #065f46;
+}
+
+.status-cancelled {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    color: #991b1b;
+}
+
+.status-default {
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    color: #374151;
+}
+
+.btn-cancel-quote {
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-cancel-quote:hover {
+    background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(245, 158, 11, 0.3);
+}
+
+.quote-section {
+    padding: 32px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.quote-section:last-child {
+    border-bottom: none;
+}
+
+.quote-section h2 {
+    margin: 0 0 16px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.contractor-info p {
+    margin: 8px 0;
+    color: #374151;
+    line-height: 1.6;
+}
+
+.quote-description,
+.timeline-description {
+    color: #374151;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.cost-breakdown {
+    background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.cost-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.cost-item:last-child {
+    border-bottom: none;
+}
+
+.cost-total {
+    margin-top: 12px;
+    padding-top: 16px;
+    border-top: 2px solid #3b82f6;
+    font-size: 1.1rem;
+}
+
+.cost-label {
+    font-weight: 500;
+    color: #6b7280;
+}
+
+.cost-total .cost-label {
+    color: #111827;
+    font-weight: 700;
+}
+
+.cost-value {
+    color: #111827;
+    font-weight: 600;
+}
+
+.cost-total .cost-value {
+    color: #3b82f6;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.photo-item {
+    padding: 16px;
+    background: #f9fafb;
+    border: 2px dashed #d1d5db;
+    border-radius: 8px;
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+
+.info-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 500;
+    color: #6b7280;
+}
+
+.info-value {
+    color: #111827;
+    font-weight: 500;
+}
+
+.cancellation-notice {
+    margin: 32px;
+    padding: 20px;
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-left: 4px solid #f59e0b;
+    border-radius: 12px;
+}
+
+.cancellation-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color: #92400e;
+}
+
+.cancellation-icon {
+    font-size: 1.5rem;
+}
+
+.cancellation-notice p {
+    margin: 8px 0;
+    color: #78350f;
+    line-height: 1.5;
+}
+
+.cancellation-date {
+    font-size: 0.9rem;
+    color: #92400e;
+    margin-top: 12px;
+}
+
+.marketplace-notice {
+    margin-top: 16px;
+    padding: 12px;
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-radius: 8px;
+    color: #1e40af;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e5e7eb;
+    border-top-color: #3b82f6;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .quote-header {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .btn-cancel-quote {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cost-item {
+        flex-direction: column;
+        gap: 8px;
+    }
+}

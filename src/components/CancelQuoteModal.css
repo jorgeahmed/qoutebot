@@ -1,0 +1,9 @@
+/* Cancel Quote Modal Styles - Extends CancelJobModal styles */
+
+@import './CancelJobModal.css';
+
+/* Override warning box for quote cancellation */
+.modal-content .warning-box {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    border-left: 4px solid #3b82f6;
+}
